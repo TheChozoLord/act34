@@ -5,7 +5,7 @@ public class checkoutClass {
     private int bookID;
     private String borrowersName;
 
-    checkout(String title, String name, int ID){
+    Checkout(String title, String name, int ID){
         this.bookID = ID;
         this.borrowersName = name;
         this.title = title;
